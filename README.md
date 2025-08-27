@@ -1,34 +1,51 @@
-# Task Manager
+# TaskNest 🪺
 
-Task Manager is a modern, responsive web application built with Next.js, designed to help users manage tasks efficiently. It features task creation, reminders with audio notifications, weather integration for outdoor tasks, and a customizable user interface with light/dark mode support. The app leverages TypeScript for type safety, Redux for state management, and a robust ESLint configuration for code quality.
+_A modern and responsive task manager built with Next.js, designed to keep your life organized and productive._
 
-## Features
-### Task Management
+[![Next.js](https://img.shields.io/badge/Next.js-13-black?style=flat&logo=next.js)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=flat&logo=typescript)](https://www.typescriptlang.org/)
+[![Redux](https://img.shields.io/badge/Redux-Toolkit-764abc?style=flat&logo=redux)](https://redux-toolkit.js.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3-38BDF8?style=flat&logo=tailwindcss)](https://tailwindcss.com/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+---
+
+## ✨ Overview
+**TaskNest** is a modern, responsive web application built with **Next.js** and **TypeScript**.  
+It helps you organize tasks efficiently with smart reminders, weather insights, and a customizable UI featuring dark/light themes.
+
+---
+
+## 🚀 Features
+
+### 📋 Task Management
 - Add, delete, and mark tasks as complete.
-- Filter tasks by categories like "Today," "Upcoming," and "Important."
+- Filter tasks by **Today**, **Upcoming**, or **Important**.
 - Search tasks by title, location, or reminder time.
 
-### Reminders
-- Set reminders with audio alerts and browser notifications.
-- Automatically dismiss reminders when tasks are completed or expired.
+### 🔔 Smart Reminders
+- Set reminders with **audio alerts** and **browser notifications**.
+- Reminders auto-dismiss when tasks are completed or expired.
 
-### Weather Integration
-- Display real-time weather for outdoor tasks based on location (fetched from a weather API).
-- Visual weather icons for quick reference (e.g., ☀️ for clear, 🌧️ for rain).
+### 🌦 Weather Integration
+- Real-time weather for outdoor tasks via OpenWeatherMap API.
+- Visual icons (☀️, 🌧️, ⛅) for quick reference.
 
-### User Interface
-- Responsive design with a collapsible sidebar for mobile and desktop.
-- Light and dark mode toggle using `next-themes`.
+### 🎨 User Interface
+- Responsive design with collapsible sidebar (mobile + desktop).
+- Light/Dark mode toggle using `next-themes`.
 - Progress tracking with a circular completion chart.
 
-### User Experience
-- Avatar generation using DiceBear Avatars for personalized user profiles.
-- Smooth transitions and hover effects with Tailwind CSS.
+### 🧑‍💻 User Experience
+- Personalized avatars with DiceBear.
+- Smooth animations & hover effects via Tailwind CSS.
 
-### Development Tools
-- **TypeScript** for static typing and improved developer experience.
-- **ESLint** with Next.js and TypeScript rules for code consistency.
-- **Prettier** integration for automatic code formatting.
+### ⚒️ Developer Tools
+- **TypeScript** for static typing.
+- **Redux Toolkit** for state management.
+- **ESLint + Prettier** for clean, consistent code.
+
+---
 
 ## Technologies Used
 - **Framework:** Next.js (React framework with App Router)
